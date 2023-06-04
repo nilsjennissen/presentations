@@ -6,13 +6,13 @@ import pptx
 from pptx import Presentation
 from pptx.util import Inches, Pt
 from pptx.dml.color import RGBColor
-from pptx.enum.shapes import MSO_SHAPE
+#from pptx.enum.shapes import MSO_SHAPE
 from pptx.enum.shapes import MSO_SHAPE_TYPE
-from pptx.enum.shapes import MSO_CONNECTOR
+#from pptx.enum.shapes import MSO_CONNECTOR
 from pptx.enum.shapes import MSO_CONNECTOR_TYPE
 
 # import placeholders
-from pptx.enum.shapes import PP_PLACEHOLDER
+#from pptx.enum.shapes import PP_PLACEHOLDER
 from pptx.enum.shapes import PP_PLACEHOLDER_TYPE
 
 
@@ -60,7 +60,7 @@ print(prs.slides[0].shapes[1].name)
 print(prs.slides[0].shapes[2].name)
 print(prs.slides[0].shapes[3].name)
 print(prs.slides[0].shapes.title.text)
-print(prs.slides[0].placeholders[1].)
+print(prs.slides[0].placeholders[1])
 
 
 
