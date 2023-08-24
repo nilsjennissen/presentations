@@ -29,6 +29,7 @@ def run_GPT4(systemprompt, prompt, temperature):
 
 
 def read_ipynb_file(file_path):
+    '''Read the notebook file and return the notebook object'''
     with open(file_path, 'r', encoding='utf-8') as file:
         notebook = nbformat.read(file, as_version=4)
     return notebook
